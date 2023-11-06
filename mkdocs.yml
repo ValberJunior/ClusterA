@@ -1,0 +1,8 @@
+site_name: "ClusterA"
+site_description: "ClusterA"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
