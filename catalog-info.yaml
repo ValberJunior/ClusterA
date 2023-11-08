@@ -14,7 +14,7 @@ metadata:
     domain: vee.codes
     hostedZoneId: sfdfsjfs
     vpc: xpto-vpc
-    certManagerEmail: teste@gmail.com
+  #  certManagerEmail: teste@gmail.com
     certManagerIssuerType: staging
   annotations:
     github.com/project-slug: ValberJunior/ClusterA
