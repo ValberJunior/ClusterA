@@ -2,7 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Cluster
 metadata:
   name: "ClusterA"
-  testexpto: tututut
+  domain: vee.codes
+  hostedZoneId: sfdfsjfs
+  vpc: xpto-vpc
+  certManagerEmail: teste@teste.com
+  certManagerIssuerType: staging
   annotations:
     github.com/project-slug: ValberJunior/ClusterA
     backstage.io/techdocs-ref: dir:.
@@ -11,7 +15,3 @@ spec:
   type: iac
   lifecycle: production
   owner: "group:default/admin"
-  teste: uhuuu
-  teste2: ahhaaa
-  teste3: ohooo
-  
