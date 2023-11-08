@@ -6,8 +6,6 @@ metadata:
     github.com/project-slug: ValberJunior/ClusterA
     backstage.io/techdocs-ref: dir:.
     github.com/workflows: terraform-deploy.yml,terraform-destroy.yml
-resources:
-  url: teste.com
 spec:
   type: iac
   lifecycle: production
