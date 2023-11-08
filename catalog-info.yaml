@@ -11,6 +11,11 @@ metadata:
   labels:
     environment: production
     app: nginx
+    domain: vee.codes
+    hostedZoneId: sfdfsjfs
+    vpc: xpto-vpc
+    certManagerEmail: teste@teste.com
+    certManagerIssuerType: staging
   annotations:
     github.com/project-slug: ValberJunior/ClusterA
     backstage.io/techdocs-ref: dir:.
