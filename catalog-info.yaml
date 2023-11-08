@@ -10,4 +10,7 @@ spec:
   type: iac
   lifecycle: production
   owner: "group:default/admin"
+  teste: uhuuu
+  teste2: ahhaaa
+  teste3: ohooo
   
