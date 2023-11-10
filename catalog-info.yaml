@@ -5,10 +5,9 @@ metadata:
   labels:
     environment: production
     app: nginx
-    domain: vee.codes
+    domain: test.com
     hostedZoneId: sfdfsjfs
     vpc: xpto-vpc
-    teste: ererer
     certManagerIssuerType: staging
   annotations:
     github.com/project-slug: ValberJunior/ClusterA
