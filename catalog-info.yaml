@@ -2,11 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Cluster
 metadata:
   name: "ClusterA"
-# domain: vee.codes
-# hostedZoneId: sfdfsjfs
-# vpc: xpto-vpc
-# certManagerEmail: teste@teste.com
-# certManagerIssuerType: staging    
   labels:
     environment: production
     app: nginx
@@ -14,7 +9,6 @@ metadata:
     hostedZoneId: sfdfsjfs
     vpc: xpto-vpc
     teste: ererer
-  #  certManagerEmail: teste@gmail.com
     certManagerIssuerType: staging
   annotations:
     github.com/project-slug: ValberJunior/ClusterA
