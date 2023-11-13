@@ -2,16 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Cluster
 metadata:
   name: "ClusterA"
-  certManagerEmail: "valber@teste.com"
   environment:
-    teste: testestrsetr
-  labels:
     environment: production
     app: nginx
     domain: test.com
     hostedZoneId: sfdfsjfs
     vpc: xpto-vpc
     certManagerIssuerType: staging
+    certManagerEmail: "valber@teste.com"
   annotations:
     github.com/project-slug: ValberJunior/ClusterA
     backstage.io/techdocs-ref: dir:.
