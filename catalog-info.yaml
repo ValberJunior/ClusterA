@@ -3,6 +3,8 @@ kind: Cluster
 metadata:
   name: "ClusterA"
   certManagerEmail: "valber@teste.com"
+  environment:
+    teste: testestrsetr
   labels:
     environment: production
     app: nginx
