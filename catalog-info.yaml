@@ -3,13 +3,11 @@ kind: Cluster
 metadata:
   name: "ClusterA"
   environment:
-    environment: production
-    app: nginx
     domain: test.com
     hostedZoneId: sfdfsjfs
     vpc: xpto-vpc
     certManagerIssuerType: staging
-    certManagerEmail: "valber@teste.com"
+    certManagerEmail: valber@teste.com
   annotations:
     github.com/project-slug: ValberJunior/ClusterA
     backstage.io/techdocs-ref: dir:.
