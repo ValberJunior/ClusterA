@@ -7,7 +7,8 @@ metadata:
     cidr_block: 10.50.0.0/16
     instance_type: typeX
     capacity_type: 111
-    node_quantity: 08
+    node_quantity: 8
+    max_node_quantity: 3
     domain: test.com
     hosted_Zone_Id: sfdfsjfs
     role_arn: testerole 
