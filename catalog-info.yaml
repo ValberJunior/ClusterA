@@ -9,17 +9,17 @@ metadata:
     capacity_type: 111
     node_quantity: 08
     domain: test.com
-    hostedZoneId: sfdfsjfs
-    rolearn: testerole 
+    hosted_Zone_Id: sfdfsjfs
+    role_arn: testerole 
     vpc: xpto-vpc
     nginx: xpto-nginx
-    certManagerIssuerType: staging
-    certManagerEmail: valber@teste.com
-    subnetPublics:
+    cert_Manager_Issuer_Type: staging
+    cert_Manager_Email: valber@teste.com
+    subnet_publics:
     - 10.50.1.0/24
     - 10.50.2.0/24
     - 10.50.3.0/24
-    privatePublics:
+    private_publics:
     - 10.50.4.0/24
     - 10.50.5.0/24
     - 10.50.6.0/24   
