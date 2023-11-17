@@ -11,7 +11,7 @@ metadata:
     max_node_quantity: 3
     domain: test.com
     hosted_zone_id: sfdfsjfs
-    role_arn: testerole 
+    rolearn: testerole 
     vpc: xpto-vpc
     nginx: xpto-nginx
     cert_manager_issuer_type: staging
