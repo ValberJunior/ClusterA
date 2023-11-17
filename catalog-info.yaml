@@ -22,8 +22,7 @@ metadata:
     - 121.121.121.0
     - 121.121.121.1
     - 121.121.121.2
-    rolearn: testerole
-    
+    rolearn: testerole    
   annotations:
     github.com/project-slug: ValberJunior/ClusterA
     backstage.io/techdocs-ref: dir:.
