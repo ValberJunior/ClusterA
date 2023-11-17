@@ -4,25 +4,25 @@ metadata:
   name: "ClusterA"
   environment:
     k8s_version: 1.28
-    cidr_block: testes
+    cidr_block: 10.50.0.0/16
     instance_type: typeX
     capacity_type: 111
     node_quantity: 08
     domain: test.com
     hostedZoneId: sfdfsjfs
+    rolearn: testerole 
     vpc: xpto-vpc
     nginx: xpto-nginx
     certManagerIssuerType: staging
     certManagerEmail: valber@teste.com
     subnetPublics:
-    - 121.121.121.0
-    - 121.121.121.1
-    - 121.121.121.2
+    - 10.50.1.0/24
+    - 10.50.2.0/24
+    - 10.50.3.0/24
     privatePublics:
-    - 121.121.121.0
-    - 121.121.121.1
-    - 121.121.121.2
-    rolearn: testerole    
+    - 10.50.4.0/24
+    - 10.50.5.0/24
+    - 10.50.6.0/24   
   annotations:
     github.com/project-slug: ValberJunior/ClusterA
     backstage.io/techdocs-ref: dir:.
