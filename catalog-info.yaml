@@ -2,12 +2,28 @@ apiVersion: backstage.io/v1alpha1
 kind: Cluster
 metadata:
   name: "ClusterA"
-  labels:
+  environment:
+    k8s_version: 1.28
+    cidr_block: testes
+    instance_type: typeX
+    capacity_type: 111
+    node_quantity: 08
     domain: test.com
     hostedZoneId: sfdfsjfs
     vpc: xpto-vpc
+    nginx: xpto-nginx
     certManagerIssuerType: staging
-    #certManagerEmail: valber@teste.com
+    certManagerEmail: valber@teste.com
+    subnetPublics:
+    - 121.121.121.0
+    - 121.121.121.1
+    - 121.121.121.2
+    privatePublics:
+    - 121.121.121.0
+    - 121.121.121.1
+    - 121.121.121.2
+    rolearn: testerole
+    
   annotations:
     github.com/project-slug: ValberJunior/ClusterA
     backstage.io/techdocs-ref: dir:.
