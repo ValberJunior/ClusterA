@@ -10,12 +10,12 @@ metadata:
     node_quantity: 8
     max_node_quantity: 3
     domain: test.com
-    hosted_Zone_Id: sfdfsjfs
+    hosted_zone_id: sfdfsjfs
     role_arn: testerole 
     vpc: xpto-vpc
     nginx: xpto-nginx
-    cert_Manager_Issuer_Type: staging
-    cert_Manager_Email: valber@teste.com
+    cert_manager_issuer_type: staging
+    cert_manager_email: valber@teste.com
     subnet_publics:
     - 10.50.1.0/24
     - 10.50.2.0/24
