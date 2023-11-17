@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Cluster
 metadata:
   name: "ClusterA"
-  environment:
+  labels:
     domain: test.com
     hostedZoneId: sfdfsjfs
     vpc: xpto-vpc
