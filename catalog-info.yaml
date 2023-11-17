@@ -16,11 +16,11 @@ metadata:
     nginx: xpto-nginx
     cert_manager_issuer_type: staging
     cert_manager_email: valber@teste.com
-    subnet_publics:
+    publics_subnets:
     - 10.50.1.0/24
     - 10.50.2.0/24
     - 10.50.3.0/24
-    private_publics:
+    private_subnets:
     - 10.50.4.0/24
     - 10.50.5.0/24
     - 10.50.6.0/24   
