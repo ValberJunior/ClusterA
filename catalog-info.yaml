@@ -33,4 +33,4 @@ spec:
   lifecycle: production
   owner: "group:default/admin"
   subcomponentOf:
-   - environment:Platform_Enviroment
+    - environment:Platform_Enviroment
