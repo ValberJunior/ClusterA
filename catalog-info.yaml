@@ -11,6 +11,7 @@ metadata:
   annotations:
     github.com/project-slug: ValberJunior/ClusterA
     backstage.io/techdocs-ref: dir:.
+    veecode/cluster-name: "devportal-kubernetes"
     github.com/workflows: terraform-deploy.yml,terraform-destroy.yml
 spec:
   type: devops
