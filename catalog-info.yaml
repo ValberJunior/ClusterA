@@ -32,4 +32,4 @@ spec:
   type: iac
   lifecycle: production
   owner: "group:default/admin"
-  childOf: ['environment:Platform_Enviroment']
+  dependsOn: ['environment:Platform_Enviroment']
